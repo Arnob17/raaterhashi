@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="shortcut icon" href="https://o.remove.bg/downloads/c80c0878-cd3f-4466-83c6-607b4c1a2e21/Capture-removebg-preview.png">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <span style="color:aquamarine; font-weight: normal;">রাতের হাঁসি</span>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div class="front_text">
+        <p>
+            Welcome to <span style="color: GREEN;" id="front_text_name">Posts</span>
+        </p>
+    </div>
+
+    <div class="posts">
+        <ul id="posts">
+
+        </ul>
+    </div>
+
+    <style>
+        body {
+            background-color: rgb(2, 2, 2);
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100;
+            padding: 40px 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10000;
+        }
+
+        nav ul li {
+            padding: 0 10px;
+        }
+
+        nav ul li span {
+            font-size: 25px;
+            font-family: 'Galada', cursive;
+        }
+
+        nav a:hover {
+            color: #0cb5f2;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            list-style-type: none;
+            height: 45px;
+            /* background-color: rgb(233, 132, 155); */
+            color: rgb(138, 83, 83)
+        }
+
+        .front_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 40px;
+        }
+
+        .front_text p {
+            padding-top: 100px;
+            font-size: 45px;
+            font-weight: bolder;
+            /* background: linear-gradient(26deg, #19b2d8, #fd8bb7, #1de4b9, #5f55be);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+            color: rgb(106, 180, 220);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        .posts {
+            position: relative;
+            display: flex;
+            padding-left: 20%;
+            align-items: center;
+        }
+
+        .posts ul {
+            list-style-type: none;
+        }
+
+        .posts li .title {
+            font-size: 30px;
+            color: rgb(19, 178, 241);
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+        }
+
+        .posts li .teller {
+            font-size: 15px;
+            color: aquamarine;
+            font-weight: bolder;
+        }
+
+        .posts li {
+            white-space: pre-line;
+            padding-bottom: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+
+    <script src="../static/js/dist/test.js"></script>
+
+</body>
+
+</html>

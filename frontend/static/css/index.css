@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+body {
+    background-color: rgb(98, 101, 100);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100;
+    padding: 40px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+nav ul li {
+    padding: 0 10px;
+}
+
+nav ul li span {
+    font-size: 25px;
+    font-family: 'Galada', cursive;
+}
+
+nav a:hover {
+    color: #0cb5f2;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 45px;
+    /* background-color: rgb(233, 132, 155); */
+    color: rgb(138, 83, 83)
+}
+
+nav ul li img {
+    height: 40px;
+}
+
+.music-info {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 250px;
+    justify-content: center;
+    padding-bottom: 250px;
+}
+
+.music-info img {
+    border-radius: 15%;
+    height: 150px;
+    width: 150px;
+}
+
+.music-info p {
+    white-space: pre-line;
+    margin-left: 40px;
+}
+
+.music-info .song_name {
+    color: aquamarine;
+    font-size: 25px;
+    font-weight: bolder;
+    white-space: pre-line;
+}
+
+.timeline {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline input {
+    width: 80vh;
+    height: 90px;
+    cursor: not-allowed !important;
+}
+
+.button_container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 4px;
+}
+
+.button_container .play {
+    display: flex;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button_container .pause {
+    display: flex;
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
